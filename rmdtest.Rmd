@@ -15,3 +15,13 @@ first I will load the packages and data
 library(tidyverse)
 read.csv("plant.growth.rate.csv")
 ```
+
+now its time to rename the dataset to make it easier
+
+```{r}
+pgr<- "plant.growth.rate"
+```
+
+now will be a good time to have a look at the data using some scatterplot
+
+```{r}

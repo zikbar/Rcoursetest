@@ -1,0 +1,17 @@
+---
+title: "new rmd document"
+author: "ZB"
+date: "1/15/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+first I will load the packages and data
+
+```{r}
+library(tidyverse)
+read.csv("plant.growth.rate.csv")
+```

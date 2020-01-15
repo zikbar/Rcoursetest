@@ -8,7 +8,13 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+# Hello
+# I completely forgot to add fancy headings
 
+1. And 
+1. maybe
+1. a 
+1. list
 first I will load the packages and data
 
 ```{r}
